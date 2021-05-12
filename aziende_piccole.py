@@ -26,7 +26,7 @@ for business in WhiteList:
                   FilteredBuis.append(business + " growth:" + str(v2)+", price:"+str(price))
                   print(business+str(price) +'%, '+str(v2))
        except: 
-             print('couldn''find it')
+             print('could not find it')
              pass
        continue
 #list what you found
